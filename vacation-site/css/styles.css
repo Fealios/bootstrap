@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Molle:400i');
 
+/*Hex codes
+blue: #88d5d2
+green: #9c9d47
+yellow: #fec842
+orange: #e97a2e
+purple: #834e71*/
+
 .jumbotron h1 {
   font-family: 'Molle', cursive;
   text-shadow: 3px 3px #9c9d47;
@@ -13,8 +20,23 @@ body {
 
 .container {
   background-color: white;
+  padding-top: 15px;
 }
 
 .package {
   width: 100%;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.row img {
+  border-radius: 6px;
+}
+
+.price {
+  color: #9c9d47;
+  font-style: italic;
+  font-family: 'Arial Black', sans-serif;
 }
