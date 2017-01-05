@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Molle:400i');
+
+.jumbotron h1 {
+  font-family: 'Molle', cursive;
+  text-shadow: 3px 3px #9c9d47;
+  /*font-family: 'Covered By Your Grace', cursive;*/
+  font-size: 69px;
+}
+
+body {
+  background-color: #88d5d2;
+}
+
+.container {
+  background-color: white;
+}
+
 .package {
   width: 100%;
 }
